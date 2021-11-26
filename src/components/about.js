@@ -30,7 +30,7 @@ const About = props => {
             console.log("What", e);
           }}
         >
-          <img src="./images/profile.jpg" alt="Nathan Cooper" width="50%" />
+          <img src="./images/profile.jpg" alt="Nathan Cooper" width="25%" />
         </CardMedia>
         <Typography className="text-center" variant="headline" component="h3">
           I'm a nerd.
@@ -39,19 +39,20 @@ const About = props => {
         <br />
         <Typography align="justify" component="p">
           Hi there, my name is Nathan Cooper. I am currently a Ph.D. student at
-          the College of William and Mary, studying Software Engineering, under the mentorship of <a href="http://www.cs.wm.edu/~denys/">Denys Poshyvanyk</a>. I
-          always loved playing video games with friends and on my own, so, when
-          I learned I could make them myself through programming a computer to
-          do it, I fell in love with programming. I wrote my first program when
-          I was 12 years old, it was a program to mod a game I was addicted to
-          at the time called Roblox. From there I went on to mod other games,
-          like MineCraft, and "attempt" to make my own. I eventually decided to
-          make this passion of mine a career, so, I went for a Bachelor's degree
-          in Software Engineering from the University of West Florida and
-          graduated from there in Spring of 2018. Though, I switched my career
-          path from games to now using Deep Learning to solve Software
-          Engineering problems, I still love playing video games with friends to
-          pass the time. As a hobby, I work on personal projects which you can
+          the College of William and Mary under the mentorship of Dr.
+          <a href="http://www.cs.wm.edu/~denys/"> Denys Poshyvanyk</a>.
+          My research interests are at the intersection of Software engineering
+          and Machine Learning. I hope to contribute to educating the world by helping creating the next
+          generation of education tools such as the{" "}
+          <a href="https://www.khanacademy.org/">Khan Academy</a> and the{" "}
+          <a href="https://www.edx.org/">edX</a> platform that democratizes knowledge and education.
+          It is my belief that personalized learning will be the future of education
+          and I hope to contribute to that vision.
+
+          <br />
+          <br />
+
+          As a hobby, I work on personal projects which you can
           find a list of, hopefully mostly complete, ones on my Projects page.
           Below you will find my resume if you are curious in any of my other
           experiences or accomplishments. If you have any questions or just want
